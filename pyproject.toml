@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "netflix-dataset-analysis"
+version = "0.1.0"
+description = ""
+authors = ["Alexis Yvon <alexis.yvon@gmail.com>"]
+readme = "README.md"
+packages = [{include = "netflix_dataset_analysis"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.24.3"
+matplotlib = "^3.7.1"
+seaborn = "^0.12.2"
+scikit-learn = "^1.2.2"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
