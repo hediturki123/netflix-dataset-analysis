@@ -2,9 +2,12 @@
 name = "netflix-dataset-analysis"
 version = "0.1.0"
 description = ""
-authors = ["Alexis Yvon <alexis.yvon@gmail.com>"]
+authors = [
+    "Alexis Yvon <alexis.yvon@gmail.com>",
+    "Hedi Turki Sanekli <hedi.turki.sanekli@gmail.com>"
+]
 readme = "README.md"
-packages = [{include = "netflix_dataset_analysis"}]
+packages = [{include = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
